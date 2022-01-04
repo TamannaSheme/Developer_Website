@@ -4,14 +4,18 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .orange-color {
     color: rgb(255, 102, 0);
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -23,11 +27,19 @@ section {
 .half-width {
     width: 50%;
     padding-left: 5%;
-    padding-right: 5%;
 }
 
 .half-width p {
     text-align: justify;
+}
+
+.half-width-img1 {
+    margin-top: 75px;
+}
+
+.half-width-writng {
+    padding-right: 15%;
+    margin-bottom: 130px;
 }
 
 .link-button {
@@ -40,8 +52,51 @@ section {
 }
 
 .dream-big {
-    margin-top: 150px;
+    margin-top: 130px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px rgb(124, 124, 124);
+    border-radius: 10px;
+}
+
+.experience-item p {
+    text-align: justify;
+    margin: 4%;
+}
+
+#full-stack-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 63, 63), tomato);
+    border-image-slice: 1;
+}
+
+#front-end-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
 }
